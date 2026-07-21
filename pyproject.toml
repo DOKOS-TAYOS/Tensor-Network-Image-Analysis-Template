@@ -11,7 +11,6 @@ requires-python = ">=3.11,<3.13"
 dependencies = [
     "PyYAML>=6.0",
     "torch>=2.12.1",
-    "torchvision>=0.27.1",
     "tensorkrowch>=1.1.6",
 ]
 
