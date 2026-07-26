@@ -8,6 +8,10 @@ version = "0.1.0"
 description = "Tensor-network deep learning template built with PyTorch and TensorKrowch."
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Alejandro Mata Ali" },
+]
 dependencies = [
     "PyYAML>=6.0",
     "torch>=2.12.1",

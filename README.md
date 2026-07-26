@@ -58,3 +58,20 @@ Puedes sobrescribir recursos con variables de entorno como `SLURM_PARTITION`, `S
 .\.venv\Scripts\python.exe -m ruff check . --fix
 .\.venv\Scripts\python.exe -m ruff format .
 ```
+
+## License
+
+This project is released under the [MIT License](LICENSE). Third-party
+dependencies keep their own licenses; see [NOTICE](NOTICE).
+
+## Citing
+
+If you use this software in scholarly work, cite this repository
+([`CITATION.cff`](CITATION.cff)). Training depends on TensorKrowch
+(https://github.com/joserapa98/tensorkrowch); please cite:
+
+J. R. Pareja Monturiol, D. Pérez-García, and A. Pozas-Kerstjens,
+“TensorKrowch: Smooth integration of tensor networks in machine learning”,
+Quantum **8**, 1364 (2024), [arXiv:2306.08595](https://arxiv.org/abs/2306.08595).
+
+Runtime also uses PyTorch. See `NOTICE` for dependency license notes.

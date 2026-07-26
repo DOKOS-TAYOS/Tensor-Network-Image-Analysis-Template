@@ -1,0 +1,24 @@
+Tensor-Network-Image-Analysis-Template / tn_dl
+Copyright (c) 2026 Alejandro Mata Ali
+
+This project is released under the MIT License (see LICENSE).
+
+Third-party runtime and development dependencies remain under their own
+licenses and terms. Installing this package does not relicense those
+dependencies. Review each dependency's license before redistribution.
+
+Key dependencies and typical licenses (verify with the installed package):
+
+- PyTorch (torch) — BSD-style (see the PyTorch project license notices)
+- TensorKrowch (tensorkrowch) — MIT (https://github.com/joserapa98/tensorkrowch);
+  please cite Pareja Monturiol, Pérez-García & Pozas-Kerstjens,
+  “TensorKrowch: Smooth integration of tensor networks in machine learning”,
+  Quantum 8, 1364 (2024), arXiv:2306.08595
+- PyYAML — MIT
+- pytest, ruff (optional dev extras) — MIT
+
+No third-party library source trees are vendored in this repository. Imports
+of torch, tensorkrowch, and the scientific Python stack are ordinary package
+dependencies.
+
+See README.md (Citing) and CITATION.cff for citation guidance.
