@@ -10,6 +10,7 @@ dependencies. Review each dependency's license before redistribution.
 Key dependencies and typical licenses (verify with the installed package):
 
 - PyTorch (torch) — BSD-style (see the PyTorch project license notices)
+- TorchVision (torchvision) — BSD-style (see the PyTorch project license notices)
 - TensorKrowch (tensorkrowch) — MIT (https://github.com/joserapa98/tensorkrowch);
   please cite Pareja Monturiol, Pérez-García & Pozas-Kerstjens,
   “TensorKrowch: Smooth integration of tensor networks in machine learning”,
