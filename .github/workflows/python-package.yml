@@ -56,3 +56,4 @@ jobs:
           if [ "$QUALITY_RESULT" != "success" ]; then
             echo "Quality job result: $QUALITY_RESULT"
             exit 1
+          fi
